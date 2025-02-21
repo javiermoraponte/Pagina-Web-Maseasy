@@ -33,12 +33,14 @@ export default function HeroSection() {
           </a>
         </Button>
         <div className="mt-16 relative w-full mx-auto max-w-4xl">
-          <div className="aspect-[16/9] rounded-lg border bg-card p-2 shadow-2xl w-[900px] flex justify-center items-center">
-            <img
-              src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/maseasy-back-office-51zq7o/assets/igxw0lfp5m4m/Captura_de_pantalla_2025-02-21_132532.png"
-              alt="POS System Demo"
-              className="rounded-md object-cover flex w-[1200px] h-[300] justify-center items-center h-[-400px-] static grow h-[450px]"
-            />
+          <div className="relative rounded-lg border bg-card p-2 shadow-2xl w-full max-w-[900px] mx-auto">
+            <div className="aspect-[16/9] relative overflow-hidden">
+              <img
+                src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/maseasy-back-office-51zq7o/assets/igxw0lfp5m4m/Captura_de_pantalla_2025-02-21_132532.png"
+                alt="POS System Demo"
+                className="rounded-md w-full h-full object-cover absolute inset-0"
+              />
+            </div>
           </div>
           <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-background/95 backdrop-blur px-6 py-3 rounded-full border shadow-lg flex items-center gap-4">
             <img
